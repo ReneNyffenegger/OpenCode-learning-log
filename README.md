@@ -13,7 +13,7 @@
 
 ## Create a shell script to translate text
 
-[`create-shell-script-translate/assignment.md`](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/master//create-shell-script-transalte/assignmentmd.md) - Create a shell script to translate text from/to english/german.
+[`create-shell-script-translate/assignment.md`](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/master/create-shell-script-translate/assignment.md) - Create a shell script to translate text from/to english/german.
 
 The assignment was executed with
 
