@@ -23,7 +23,7 @@ The assignment was executed with
 
 I had a hardcoded absolute path to `./opencode/commands/translate.md`. When executing the script, OpenCode told me that I didn't have the required persmissions to read the file
 (`permission requested: external_directory (/home/rene/‥/.opencode/commands/*); auto-rejecting`)\
-When I used [`@https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/master/.opencode/commands/translate.md`](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/bd7dc8c3fbb353ac85bbbe43ee9776e337d83846/create-shell-script-translate/assignment.md#L3C1-L3C102) instead, the error went away.
+When I used [`@https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/master/.opencode/commands/translate.md`](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/bd7dc8c3fbb353ac85bbbe43ee9776e337d83846/create-shell-script-translate/assignment.md?plain=1#L3C1-L3C105) instead, the error went away.
 
 I had a few unsuccessful attempts to create the shell script because it tried the chinese URL `api.moonshot.cn` rather than `api.moonshot.ai`.
 I fixed this by explicitely specifying the URL.
