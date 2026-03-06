@@ -4,7 +4,7 @@ This is a log where I try to note observations I made while trying to learn *Ope
 
 ## translate
 
-[`translate`](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/master/.opencode/commands/translate.md) - Translate from/to english and/or german\
+[`translate`](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/master/.opencode/commands/translate.md) - Translate from/to english and/or german.
 
 *Observations*:
  - The command does not specify an agent
