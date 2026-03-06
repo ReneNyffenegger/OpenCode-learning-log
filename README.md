@@ -35,3 +35,21 @@ OpenCode notified me that it used the *WebFetch* (tool?) with
 I *guess* that the `%` sign indicates tool usage
 
 All in all, I was surprised how long it took for the model to create a shell script which I assumed would be rather easy.
+
+## Create a simple MCP Server
+
+The goal of [`MCP-server/simple/create.md`] was to create a *simple MCP server* for educational purposes.
+
+In order for `opencode` to be able to connect the MCP server, I had to → https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/ce1fd643f57fae5058be1d386478d551e384823b/MCP-server/simple/opencode.json#L3-L7[register it in the `opencode.json`] config file.
+
+The MCP server was created by executing [`create.sh`](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/master/MCP-server/simple/create.sh)
+
+### Observations
+
+In one of the early tests, OpenCode created an MCP server that implemented the method `tools/execute` instead of `tools/call`.\
+This gave rise to [an explicit test](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/ce1fd643f57fae5058be1d386478d551e384823b/MCP-server/simple/create.md?plain=1#L45) for `tools/call`.
+
+When I executed `create.sh`, OpenCode also a `create.md` file in the `out` directory with approximatly the same content as in `create.md`, but formatted a bit differently.\
+I didn't not add the created `out/create.md` to the git repository.
+
+With this example, I also added a "global" instruction in the top level `AGENTS.md` file [to create artifacts in `out` directories](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/06fa9c76d722d8fb5fa1310862591dbf371b8f90/AGENTS.md?plain=1#L2-L4)..
