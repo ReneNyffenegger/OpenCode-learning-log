@@ -1,3 +1,4 @@
+This is a log where I try to note observations I made while trying to learn *OpenCode*.
 
 # Commands
 
