@@ -41,7 +41,7 @@ Technical jargon, such as *Stored Procedure* does not need to be translated.
 
 Create two files:
 - An `.sql` file for the DDL statements
-- An `.sql` file for the 
+- An `.sql` file for the stored procedure
   
 ### Casing
 
