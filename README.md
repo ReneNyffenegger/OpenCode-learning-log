@@ -41,7 +41,7 @@ All in all, I was surprised how long it took for the model to create a shell scr
 
 The goal of [`MCP-server/simple/create.md`](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/master/MCP-server/simple/create.md) was to create a *simple MCP server* for educational purposes.
 
-In order for `opencode` to be able to connect the MCP server, I had to → https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/ce1fd643f57fae5058be1d386478d551e384823b/MCP-server/simple/opencode.json#L3-L7[register it in the `opencode.json`] config file.
+In order for `opencode` to be able to connect the MCP server, I had to [register it in the `opencode.json`](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/ce1fd643f57fae5058be1d386478d551e384823b/MCP-server/simple/opencode.json#L3-L7) config file.
 
 The MCP server was created by executing [`create.sh`](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/master/MCP-server/simple/create.sh)
 
