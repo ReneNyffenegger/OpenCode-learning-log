@@ -58,4 +58,5 @@ I was pleased to see that this instruction was honored.
 
 ## Oracle PL/SQL: Stored procedure to kill blocking sessions
 
-[`kill_blocking_sessions_proc`](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/master/programming/pl-sql/kill-blocking-sessions/out/kill_blocking_sessions_proc.sql)
+[`kill_blocking_sessions_proc`](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/master/programming/pl-sql/kill-blocking-sessions/out/kill_blocking_sessions_proc.sql) is an Oracle PL/SQL stored procedure
+which kills sessions which prevent other sessions from modifying records in two given tables.
