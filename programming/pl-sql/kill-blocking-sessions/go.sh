@@ -1,1 +1,1 @@
-opencode run create.md --model github-copilot/claude-opus-4.6
+opencode run AGENTS.md --model github-copilot/claude-opus-4.6
