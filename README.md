@@ -55,3 +55,7 @@ I didn't not add the created `out/create.md` to the git repository.
 
 With this example, I also added a "global" instruction in the top level `AGENTS.md` file [to create artifacts in `out` directories](https://github.com/ReneNyffenegger/OpenCode-learning-log/blob/06fa9c76d722d8fb5fa1310862591dbf371b8f90/AGENTS.md?plain=1#L2-L4).\
 I was pleased to see that this instruction was honored.
+
+## Oracle PL/SQL: Stored procedure to kill blocking sessions
+
+

@@ -1,6 +1,6 @@
 # Kill Blocking Sessions in Oracle
 
-Your task is to create a stored pocedure, written in PL/SQL, whick kills blocking sessions if the blocking table is `eesitzer` or `anztag`.
+Your task is to create a stored pocedure, written in PL/SQL, whick kills blocking sessions if the blocking table is `besitzer` or `anztag`.
 
 ## Solution design
 
